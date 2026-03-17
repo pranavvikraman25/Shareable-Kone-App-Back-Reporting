@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Back Reporting Kone",
+    "slug": "mobile",
+    "scheme": "kone-maintenance",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#005EB8"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#005EB8"
+      },
+      "package": "com.pranavvikraman25.mobile"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "df598e76-87ca-442b-80a3-0a55ade83cc7"
+      }
+    },
+    "owner": "samnila"
+  }
+}

@@ -1,0 +1,3 @@
+# Ignore lock file so EAS uses npm install (not npm ci)
+# This ensures platform-specific native binaries (like lightningcss for Linux) are correctly installed
+package-lock.json
